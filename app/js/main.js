@@ -8,6 +8,11 @@ const langArr = {
         "en": "You can score more with MoreScore",
         "ua": "Ви можете забити більше з MoreScore",
     }, 
+    "chip-2": {
+        "ru": "Футбол",
+        "en": "Football",
+        "ua": "Футбол",
+    }, 
     "memory": {
         "ru": "Персонализируйте свою домашнюю страницу с любимыми игроками, командами и лигами и получите легкий доступ ко всем данным, необходимым для анализа ситуации на поле.",
         "en": "Personalise your homepage with your favourite players, teams and leagues and get easy access to all the data you need to analyze the situation on the field",
