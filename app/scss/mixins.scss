@@ -1,0 +1,22 @@
+@mixin font($fs, $lh, $fw: null, $ff: var(--basic-family)) {
+  font: $fw #{$fs}/#{$lh} $ff;
+}
+
+@mixin media($media-width) {
+  @media (max-width: $media-width) {
+    @content;
+  }
+}
+
+@mixin wrap($bg, $rd) {
+  background: $bg;
+  border-radius: $rd;
+}
+
+@mixin flex($df, $jc, $ai, $fd, $fw) {
+  display: $df;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $fd;
+  flex-wrap: $fw;
+}

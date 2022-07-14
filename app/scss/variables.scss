@@ -1,0 +1,33 @@
+:root {
+  //fonts
+  --basic-family: "Avenir Next Cyr", "Roboto", "Arial", "Helvetica", sans-serif;
+
+  //color
+  --color-main: #ffffff;
+  --color-second: #d3d6de;
+
+  //bacgrounds
+  --bg-main: #1a1c27;
+  --bg-second: #222532;
+  --bg-color3: #000000;
+  --bg-color4: #4967fe;
+  --bg-color5: #5B76FF;
+  --bg-color6:  #2D3143;
+}
+//fonts
+$basic-family: var(--basic-family);
+$basic-family: "Roboto", "Arial", "Helvetica", sans-serif;
+$second-family: "Avenir Next Cyr", sans-serif;
+
+//container
+$container-max-width: 375px;
+$container-min-width: 1440px;
+
+//media
+$xs: 400px;
+$sm: 640px;
+$md: 768px;
+$ml: 870px;
+$lg: 1110px;
+$lm: 1250px;
+$lxx: 1350px;

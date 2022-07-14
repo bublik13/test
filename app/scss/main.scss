@@ -1,0 +1,17 @@
+@import 'variables'; //пишем переменные
+@import 'reset'; //сборс стилей
+@import 'fonts'; //подключаем шрифты (локально)
+@import url('http://fonts.cdnfonts.com/css/avenir-next-cyr');
+@import 'mixins';
+
+//подключаем БЭМ блоки
+@import 'blocks/body';
+@import 'blocks/container';
+@import 'blocks/info';
+@import 'blocks/logo';
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/offering';
+@import 'blocks/slider';
+@import 'blocks/download';
+@import 'blocks/footer';

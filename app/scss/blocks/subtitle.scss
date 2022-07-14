@@ -1,0 +1,7 @@
+.subtitle{
+    @include font(18px, 32px, 400);
+    color: var(--color-second);
+    @include media($sm) {
+        @include font(16px, 24px, 400);
+    }
+}

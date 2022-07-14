@@ -1,0 +1,156 @@
+.download {
+  position: relative;
+}
+.download:after {
+  @include media($sm) {
+    position: absolute;
+    content: " ";
+    background: url(../img/download/background.png) center center no-repeat;
+    top: -188px;
+    left: -2px;
+    right: 0;
+    bottom: 0;
+  }
+}
+.download__wrap {
+  @include flex(flex, flex-end, center, none, none);
+  @include wrap(var(--bg-second), 60px);
+  padding-top: 117px;
+  padding-bottom: 111px;
+  padding-right: 165px;
+  position: relative;
+  margin-bottom: 80px;
+  @include media($lg) {
+    padding-right: 20px;
+  }
+  @include media($ml) {
+    padding-bottom: 50px;
+    padding-top: 57px;
+    padding-right: 0px;
+
+    @include flex(flex, center, center, column, none);
+  }
+  @include media($sm) {
+    background: transparent;
+    border-radius: 0;
+  }
+}
+.download__logo {
+  padding: 48px 60px 58px;
+  @include wrap(var(--bg-main), 100%);
+  border: 0.620513px solid #2d3143;
+  @include flex(flex, center, center, none, none);
+}
+.download__logo > .logo__img {
+  width: 75px;
+  height: 90px;
+}
+.download__icon {
+  width: 181px;
+  height: 60px;
+  @include wrap(var(--bg-color3), 12px);
+  box-shadow: 0px 20px 60px -10px rgba(73, 103, 254, 0.2);
+}
+.download__title {
+  margin-bottom: 60px;
+  max-width: 380px;
+  @include media($ml) {
+    text-align: center;
+  }
+}
+.download__psevdo {
+  position: absolute;
+  border: 0.620513px dashed #2d3143;
+  border-radius: 100%;
+  padding: 44px;
+  left: 98px;
+  top: -18px;
+  @include media($lg) {
+    left: 0px;
+  }
+  @include media($ml) {
+    position: relative;
+    left: unset;
+    top: unset;
+  }
+  @include media($sm) {
+    border: transparent;
+    padding: 0;
+  }
+}
+.download__psevdo2 {
+  border: 0.620513px dashed #2d3143;
+  border-radius: 100%;
+  padding: 50px;
+  @include media($sm) {
+    border: transparent;
+    padding: 0;
+  }
+}
+.download__psevdo3 {
+  border: 0.620513px dashed #2d3143;
+  border-radius: 100%;
+  padding: 47px;
+  position: relative;
+  @include media($sm) {
+    border: transparent;
+  }
+}
+.download__img,
+.download__img2,
+.download__img3,
+.download__img4,
+.download__img5,
+.download__img6,
+.download__img7,
+.download__img8 {
+  @include wrap(var(--bg-main), 24px);
+  padding: 7px;
+  border: 0.620513px solid #ffffff;
+}
+.download__img {
+  position: absolute;
+  top: 59px;
+  left: 59px;
+}
+.download__img2 {
+  position: absolute;
+  top: 31px;
+  left: 126px;
+}
+.download__img3 {
+  position: absolute;
+  top: 59px;
+  right: 56px;
+}
+.download__img4 {
+  position: absolute;
+  top: 127px;
+  right: 29px;
+}
+.download__img5 {
+  position: absolute;
+  bottom: 57px;
+  right: 56px;
+}
+.download__img6 {
+  position: absolute;
+  bottom: 29px;
+  right: 126px;
+}
+.download__img7 {
+  position: absolute;
+  bottom: 56px;
+  left: 59px;
+}
+.download__img8 {
+  position: absolute;
+  top: 128px;
+  left: 29px;
+}
+.download__app {
+  display: block;
+  @include media($ml) {
+    text-align: center;
+  }
+}
